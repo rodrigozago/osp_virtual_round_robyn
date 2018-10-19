@@ -1,0 +1,168 @@
+In file included from /home/osp/src/simcore.c:32:
+/home/osp/src/simcore.private.h:589: warning: useless storage class specifier in empty declaration
+In file included from /home/osp/src/simcore.c:38:
+/home/osp/src/prot-simcore.h:12: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:14: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:14: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:15: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:16: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:17: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:18: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:19: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:20: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:21: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:22: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:23: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:25: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:26: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:28: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:28: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:29: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:30: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:30: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:31: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:32: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:32: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:33: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:34: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:35: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:35: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:38: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:47: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:97: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:102: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:103: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:153: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:156: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:157: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:173: warning: data definition has no type or storage class
+In file included from /home/osp/src/simcore.c:38:
+/home/osp/src/prot-simcore.h:232:35: warning: no newline at end of file
+In file included from /home/osp/src/simcore.c:143:
+/home/osp/src/prot-simcore.h:12: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:14: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:14: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:15: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:16: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:17: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:18: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:19: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:20: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:21: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:22: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:23: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:25: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:26: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:28: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:28: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:29: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:30: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:30: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:31: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:32: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:32: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:33: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:34: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:35: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:35: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:38: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:47: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:97: warning: parameter names (without types) in function declaration
+/home/osp/src/prot-simcore.h:102: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:103: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:153: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:156: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:157: warning: data definition has no type or storage class
+/home/osp/src/prot-simcore.h:173: warning: data definition has no type or storage class
+In file included from /home/osp/src/simcore.c:143:
+/home/osp/src/prot-simcore.h:232:35: warning: no newline at end of file
+/home/osp/src/simcore.c: In function ‘sim_signal_handler’:
+/home/osp/src/simcore.c:2921: warning: passing argument 2 of ‘signal’ from incompatible pointer type
+/home/osp/src/simcore.c: In function ‘initialization’:
+/home/osp/src/simcore.c:2973: warning: passing argument 2 of ‘signal’ from incompatible pointer type
+In file included from /home/osp/src/timeint.c:12:
+/home/osp/src/timeint.h:41: warning: useless storage class specifier in empty declaration
+/home/osp/src/timeint.h:47: warning: useless storage class specifier in empty declaration
+In file included from /home/osp/src/sockets.c:14:
+/home/osp/src/sockets.h:86: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:92: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:98: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:105: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:121: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:128: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:142: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:158: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:164: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:202: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.h:215: warning: useless storage class specifier in empty declaration
+/home/osp/src/sockets.c: In function ‘new_so_entry’:
+/home/osp/src/sockets.c:82: warning: incompatible implicit declaration of built-in function ‘malloc’
+/home/osp/src/sockets.c:84: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c: In function ‘open_sock’:
+/home/osp/src/sockets.c:235: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:256: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:258: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c: In function ‘connect_sock’:
+/home/osp/src/sockets.c:305: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:307: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c: In function ‘accept_sock’:
+/home/osp/src/sockets.c:345: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:347: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c: In function ‘send_sock’:
+/home/osp/src/sockets.c:382: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:384: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c: In function ‘recv_sock’:
+/home/osp/src/sockets.c:420: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:422: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c:441: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c: In function ‘sendto_sock’:
+/home/osp/src/sockets.c:476: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:478: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c: In function ‘recvfrom_sock’:
+/home/osp/src/sockets.c:507: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:535: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c: In function ‘close_sock’:
+/home/osp/src/sockets.c:597: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c:599: warning: incompatible implicit declaration of built-in function ‘exit’
+/home/osp/src/sockets.c:613: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/sockets.c: In function ‘purge_sockets’:
+/home/osp/src/sockets.c:660: warning: incompatible implicit declaration of built-in function ‘printf’
+In file included from /home/osp/src/protocols.c:13:
+/home/osp/src/protocols.h:80: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:86: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:102: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:109: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:120: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:134: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:141: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:157: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:163: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:169: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:199: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.h:210: warning: useless storage class specifier in empty declaration
+/home/osp/src/protocols.c: In function ‘allocate_prcb’:
+/home/osp/src/protocols.c:49: warning: incompatible implicit declaration of built-in function ‘malloc’
+/home/osp/src/protocols.c:51: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_connect’:
+/home/osp/src/protocols.c:281: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_disconnect’:
+/home/osp/src/protocols.c:318: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_accept’:
+/home/osp/src/protocols.c:373: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_send’:
+/home/osp/src/protocols.c:439: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_recv’:
+/home/osp/src/protocols.c:521: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘stream_notify_recvd’:
+/home/osp/src/protocols.c:562: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘dgram_sendto’:
+/home/osp/src/protocols.c:691: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c:707: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c:722: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘dgram_recvfrom’:
+/home/osp/src/protocols.c:759: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/src/protocols.c: In function ‘alloc_msg_buf’:
+/home/osp/src/protocols.c:770: warning: incompatible implicit declaration of built-in function ‘malloc’
+/home/osp/src/protocols.c:772: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/osp/lib.intel/simcore.o: In function `print_snapshot':
+simcore.c:(.text+0xa40): warning: the `gets' function is dangerous and should not be used.

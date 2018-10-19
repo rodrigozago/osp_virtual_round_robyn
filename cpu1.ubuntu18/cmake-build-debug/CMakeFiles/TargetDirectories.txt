@@ -1,0 +1,3 @@
+/home/rz/Documents/arqs-nativo-ubuntu18/cpu1.ubuntu18/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rz/Documents/arqs-nativo-ubuntu18/cpu1.ubuntu18/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rz/Documents/arqs-nativo-ubuntu18/cpu1.ubuntu18/cmake-build-debug/CMakeFiles/cpu1_ubuntu18.dir

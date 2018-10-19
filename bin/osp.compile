@@ -1,0 +1,156 @@
+#!/bin/sh 
+
+###############################################################################
+#									      #
+#  				OSP COMPILE:				      #
+#	Compiles the entire OSP, creates lib.architecture, demo/OSP.demo      #
+#									      #
+#									      #
+###############################################################################
+
+
+
+osphome=$HOME/OSP-corrigido-2008
+
+chmod 711 $osphome/bin $osphome/demo $osphome/lib.* $osphome/gen  2> /dev/null
+chmod 700 $osphome/src $osphome/admin $osphome/doc  2> /dev/null
+chmod 700 $osphome/assignments $osphome/admin_lib  2> /dev/null
+chmod 600 $osphome/READ_ME   2> /dev/null
+chmod 600 $osphome/*tar* 2> /dev/null
+chmod 600 $osphome/Tarfile.* 2> /dev/null
+
+if [ -d $osphome/solutions  ]; then
+    chmod 700 $osphome/solutions 
+fi
+
+cat  <<EOT
+
+
+
+
+############################################################################
+#                                                                          #
+#                                  This is                                 #
+#                         OSP COMPILE - Release 1.7                        #
+#                                                                          #
+#      Compiles the entire OSP, creates lib.architecture, demo/OSP.demo    #
+#                                                                          #
+#                                                                          #
+#  Copyright (C) 1990  The Research Foundation of SUNY,       	 	   #
+#                      Michael Kifer and Scott S. Smolka   	 	   #
+#                                                                          #
+#  (see ~/LICENSE for terms and conditions)                   	 	   #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+
+
+
+
+
+
+
+
+
+Enter the computer architecture you are currently logged on
+(e.g. vax, sun3, sun4, sequentS27, hp300, att3B2, next, sgi, etc.)
+
+
+
+EOT
+
+read architecture
+architecture=$architecture     # to delete leading space
+echo ""
+
+debug=
+
+if [ ! -s $osphome/lib.$architecture  ]; then
+	mkdir $osphome/lib.$architecture
+fi
+
+if [ ! -s $osphome/demo  ]; then
+	mkdir $osphome/demo
+fi
+
+# initialize the makefile
+Mkfile=Mfile
+
+
+if [ -s $osphome/src/simcore.c  ]; then
+
+	type=c
+
+	# Force ANSI-C compilers into BSD 
+	ccflags="-D_BSD -D_BSD_INCLUDES"
+	bsdflags=
+
+#
+# The following is for debugging OSP, not for coursework.
+#
+    if [ -f $osphome/admin/debug ]; then
+
+	echo "Do you want the debug option '-g'? "
+	echo ""
+	echo "WARNING: With '-g' option, students can see solutions via 'dbx'."
+	echo "Do: 'touch ./src/*' and recompile before generating assignments."
+	echo ""
+	echo "Enter: a (cc -g all) /u (cc -g updated only) /<nl> (no -g)"
+
+	read debug
+    fi
+
+else
+	type=o
+fi
+
+echo " "
+echo " "
+
+if [ "$debug" = "a" ]; then
+	debug=-g
+	type=g
+	touch $osphome/src/*.c
+	echo "Debug = 'all';   Architecture = '$architecture'"
+	echo "  "
+elif [ "$debug" = "u" ]; then
+	debug=-g
+	type=g
+	echo "Debug = 'recently updated only';   Architecture = '$architecture'"
+	echo "  "
+else
+	debug=
+	echo "Debug = 'no';   Architecture = '$architecture'"
+	echo "  "
+fi
+
+cat <<EOT
+
+   ... compiling OSP ... wait ...
+
+
+EOT
+
+/bin/rm -f $osphome/src/mask.h
+echo "#define MASK 128" > $osphome/src/mask.h
+
+cd $osphome/lib.$architecture
+
+make -f $osphome/admin/$Mkfile.cc.$type ARCH="$architecture" DEBUG="$debug" HOME_DIR="$osphome" CCFLAGS="$ccflags" BSDFLAGS="$bsdflags"
+
+#source $osphome/.cshrc
+#/bin/rm -f $osphome/src/expiration.h
+
+chmod 711 $osphome/demo/OSP.demo.$architecture
+chmod 711 $osphome/bin/run_osp.$architecture
+chmod 6711 $osphome/bin/submit.$architecture
+
+cat <<EOT
+
+      DONE! 
+
+
+
+
+EOT

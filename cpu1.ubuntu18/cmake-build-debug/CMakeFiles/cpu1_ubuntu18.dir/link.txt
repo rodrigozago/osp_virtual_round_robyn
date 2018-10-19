@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cpu1_ubuntu18.dir/cpu.c.o CMakeFiles/cpu1_ubuntu18.dir/dialog.c.o ../osp.o  -o cpu1_ubuntu18 

@@ -1,0 +1,119 @@
+#!/bin/sh 
+
+###############################################################################
+#									      #
+#  				OSP START UP:				      #
+#	     Creates project generator and routines used to submit  	      #
+#			     student assignments			      #
+#									      #
+#									      #
+###############################################################################
+
+
+osphome=$HOME/OSP-corrigido-2008
+echo $osphome
+chmod 711 $osphome/bin $osphome/demo  $osphome/lib*  $osphome/gen  2> /dev/null
+chmod 700 $osphome/src $osphome/admin $osphome/doc  2> /dev/null
+chmod 700 $osphome/assignments $osphome/admin_lib  2> /dev/null
+chmod 600 $osphome/READ_ME  2> /dev/null
+
+chmod 600 $osphome/*tar*     2> /dev/null
+chmod 600 $osphome/Tarfile*  2> /dev/null
+
+
+if [ -d $osphome/solutions  ]; then
+    chmod 700 $osphome/solutions
+fi
+
+
+cat <<EOT
+
+
+
+
+############################################################################
+#                                                                          #
+#                                  This is                                 #
+#                         OSP START UP - Release 1.7                       #
+#                                                                          #
+#               Creates the project generator and routines used            #
+#                       to submit student assignments                      #
+#                                                                          #
+#                                                                          #
+#                                                                          #
+#  Copyright (C) 1990  The Research Foundation of SUNY,                    #
+#                      Michael Kifer and Scott S. Smolka                   #
+#                                                                          #
+#  (see ~/LICENSE for terms and conditions)                                #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+
+
+
+
+
+
+
+
+
+Enter the computer architecture you are currently logged on
+(e.g. vax, sun3, sun4, sequentS27, hp300, att3B2, next, sgi, etc.)
+
+
+
+EOT
+
+read architecture 
+echo ""
+architecture=$architecture 	# to delete leading space
+
+# Initialize the Makefile variable
+Mkfile=Mfile
+
+#
+#  If sources are included -- recompile; otherwise, use object code
+#
+if [  -s $osphome/admin/gen.c -a -s $osphome/admin/run_osp.c -a  -s $osphome/admin/submit.c ]; then
+	type=c
+
+	# Force ANSI-C compilers into BSD mode
+	ccflags="-D_BSD -D_BSD_INCLUDES"
+	bsdflags=
+else
+	type=o
+fi
+
+if [ ! -s $osphome/admin_lib  ]; then 
+        mkdir $osphome/admin_lib
+fi 
+
+echo " "
+echo " "
+echo "   ... compiling ... wait ..."
+echo " "
+echo " "
+
+cd $osphome/admin_lib
+
+make -f $osphome/admin/$Mkfile.up.$type ARCH="$architecture" HOME_DIR="$osphome" CCFLAGS="$ccflags" BSDFLAGS="$bsdflags"
+
+chmod 711 $osphome/bin/run_osp.$architecture
+chmod 6711 $osphome/bin/submit.$architecture
+
+cat <<EOT
+
+       DONE! 
+
+  For security reasons: 
+		1. The group of this account must be different from any group
+		   your students might be in.
+		2. Do not change modes of OSP files, especially
+		   ./bin/run_osp.*  and  ./bin/submit.*
+ 
+ 
+ 
+ 
+
+EOT
